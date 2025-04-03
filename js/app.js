@@ -1,7 +1,7 @@
 ﻿document.addEventListener("DOMContentLoaded", () => {
     function incrementarLikes(event) {
         const boton = event.target;
-        const contadorLikes = boton.nextElementSibling; // busca al hermano (span)
+        const contadorLikes = boton.nextElementSibling; // busca al hermano (span
         let cantidadLikes = parseInt(contadorLikes.textContent); 
         cantidadLikes++;
         contadorLikes.textContent = cantidadLikes;
